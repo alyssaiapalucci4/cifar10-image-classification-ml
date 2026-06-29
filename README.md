@@ -1,5 +1,7 @@
 ---
-CIFAR-10 Image Classification using Machine Learning
+Tital: CIFAR-10 Image Classification using Machine Learning
+Author: Alyssa I
+
 Overview
 
 This project demonstrates image classification using machine learning techniques on the CIFAR-10 dataset. The goal is to classify images into 10 categories using traditional ML models and compare their performance.
