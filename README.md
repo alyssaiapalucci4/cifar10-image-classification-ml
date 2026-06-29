@@ -1,10 +1,8 @@
 ---
-
 CIFAR-10 Image Classification using Machine Learning
 Project Overview
 
 This project uses machine learning models to classify images from the CIFAR-10 dataset into 10 categories. The models used are Random Forest and Support Vector Machine (SVM), and their performance is compared.
-
 ---
 
 **Steps Performed**
