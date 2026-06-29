@@ -10,6 +10,7 @@ Two models were implemented:
 
 - Random Forest Classifier
 - Support Vector Machine (SVM)
+  
 ---
 
 Dataset
