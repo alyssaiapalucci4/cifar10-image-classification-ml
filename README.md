@@ -1,76 +1,58 @@
 CIFAR-10 Image Classification using Machine Learning
-📌 Project Overview
+Project Overview
 
-This project focuses on image classification using machine learning techniques applied to the CIFAR-10 dataset. The goal is to classify images into 10 categories using traditional machine learning models and compare their performance.
+This project uses machine learning models to classify images from the CIFAR-10 dataset into 10 categories. The models used are Random Forest and Support Vector Machine (SVM), and their performance is compared.
 
-Two models were implemented:
+---
 
-Random Forest Classifier
-Support Vector Machine (SVM)
+CIFAR-10 Image Classification using Machine Learning
+Project Overview
 
-The models were evaluated and compared using standard classification metrics.
+This project uses machine learning models to classify images from the CIFAR-10 dataset into 10 categories. The models used are Random Forest and Support Vector Machine (SVM), and their performance is compared.
 
-📊 Dataset
+---
 
-The CIFAR-10 dataset contains:
+**Steps Performed**
 
-60,000 color images (32×32 pixels)
-10 classes (airplanes, cars, birds, cats, deer, dogs, frogs, horses, ships, trucks)
+**Data Preprocessing**
+- Combined training and test data
+- Normalized pixel values (0–255 to 0–1)
+- Flattened images into 1D vectors
+- Split data into 80% training and 20% testing
 
-Each image was flattened into a feature vector for use with traditional machine learning algorithms.
+**Model Training**
 
-⚙️ Project Workflow
-1. Data Preprocessing
-Combined training and testing datasets
-Normalized pixel values (0–255 → 0–1)
-Flattened images into 1D feature vectors
-Split data into 80% training and 20% testing sets
+- Random Forest trained using GridSearchCV
+- SVM trained using a linear kernel
+- Both models trained on a subset of data for speed
 
-2. Model Training
-Random Forest trained using GridSearchCV for hyperparameter tuning
-SVM trained using a linear kernel
-Both models trained on a subset of data for efficiency
+**Evaluation**
 
-3. Evaluation
+**Models were evaluated using:**
+- Accuracy
+- Precision
+- Recall
+- F1 Score
+- Confusion Matrix
 
-Models were evaluated using:
+**Results**
+Model	                   Accuracy
+Random Forest	           ~0.35–0.45
+SVM  	                   ~0.30–0.40
 
-Accuracy
-Precision
-Recall
-F1 Score
-Confusion Matrix
-📈 Results Summary
-Model	Accuracy	Notes
-Random Forest	Higher (~0.35–0.45)	Better overall performance
-SVM	Lower (~0.30–0.40)	Faster but less accurate
-📊 Visual Results
-Confusion Matrix (Random Forest)
-Feature Importance Plot
+Random Forest performed slightly better than SVM.
 
-These visualizations help understand model performance and feature contribution.
+---
 
-🚀 How to Run This Project
-1. Clone the repository
+**How to Run**
+
+Clone the repository:
 git clone https://github.com/your-username/cifar10-image-classification-ml.git
-2. Open the notebook
 
-Open the file:
+Open the notebook: Assignment_11_AI.ipynb
 
-Assignment_11_AI.ipynb
+Install dependencies: pip install numpy matplotlib scikit-learn tensorflow
 
-You can run it using:
+Run all cells from top to bottom.
 
-Google Colab (recommended)
-Jupyter Notebook
-VS Code (with Jupyter extension)
-3. Install dependencies (if needed)
-pip install numpy matplotlib scikit-learn tensorflow
-4. Run all cells
-
-Execute the notebook from top to bottom to:
-
-Load dataset
-Train models
-Evaluate performance
-Generate plots
+---
