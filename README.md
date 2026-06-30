@@ -70,7 +70,7 @@ Feature Importance
 --- 
 
 How to Run
-1. Clone the repository: git clone https://github.com/alyssaiapalucci4/cifar10-image-classification-ml/tree/main
+1. Clone the repository: https://github.com/alyssaiapalucci4/cifar10-image-classification-ml
    
 2. Open the notebook
 
